@@ -101,12 +101,12 @@ Modules = [87819,
 56531,
 80841]
 
-def get_fuel(mod_list):
+def get_mass(mod_list):
     sum = 0
     for item in mod_list:
         sum += math.floor(item / 3) - 2
     return sum
-print(get_fuel(Modules))
+print(get_mass(Modules))
 
 def find_added_fuel(mass):
     total_mass = 0
